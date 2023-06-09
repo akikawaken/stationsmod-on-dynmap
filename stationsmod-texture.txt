@@ -1,0 +1,29 @@
+version:1.12
+modname:stations_mod
+cfgfile:config/stationsmod.cfg
+# texture
+texturepath:assets/stations_mod/textures/blocks/
+texture:id=sirorenga,filename=assets/stations_mod/textures/blocks/station_brick.png
+texture:id=hairenga_yoko,filename=assets/stations_mod/textures/blocks/brick_side.png
+texture:id=hairenga_ue,filename=assets/stations_mod/textures/blocks/station_brick2.png
+texture:id=hairenga_ue_yoko,filename=assets/stations_mod/textures/blocks/station_brick2_left.png
+texture:id=kiiro_ue1,filename=assets/stations_mod/textures/blocks/station_brick_up.png
+texture:id=kiiro_ue2,filename=assets/stations_mod/textures/blocks/station_brick_left.png
+texture:id=kiiro_ue3,filename=assets/stations_mod/textures/blocks/station_brick_down.png
+texture:id=asufaruto,filename=assets/stations_mod/textures/blocks/asphalt.png
+texture:id=oldplat,filename=assets/stations_mod/textures/blocks/old_platform_brick.png
+texture:id=yello,filename=assets/stations_mod/textures/blocks/yellow_line_up.png
+texture:id=empty,filename=assets/stations_mod/textures/blocks/line_side.png
+# block
+# ho-mu muke siro renga
+block:id=%material_block,data=0,stdrot=true,transparency=OPAQUE,face0-5=0:sirorenga
+block:id=%material_block,data=1,stdrot=true,transparency=OPAQUE,face0=0:hairenga_yoko,face1=0:hairenga_ue,face2-5=0:hairenga_yoko
+block:id=%material_block,data=2,stdrot=true,transparency=OPAQUE,face0=0:hairenga_yoko,face1=0:hairenga_ue_yoko,face2-5=0:hairenga_yoko
+block:id=%material_block,data=3,stdrot=true,transparency=OPAQUE,face0=0:hairenga_yoko,face1=0:hairenga_ue,face2-5=0:hairenga_yoko
+block:id=%material_block,data=4,stdrot=true,transparency=OPAQUE,face0=0:hairenga_yoko,face1=0:hairenga_ue,face2-5=0:hairenga_yoko
+block:id=%material_block,data=5,stdrot=true,transparency=OPAQUE,face0=0:sirorenga,face1=4000:kiiro_ue1,face2-5=0:sirorenga
+block:id=%material_block,data=6,stdrot=true,transparency=OPAQUE,face0=0:sirorenga,face1=0:kiiro_ue1,face2-5=0:sirorenga
+block:id=%material_block,data=7,stdrot=true,transparency=OPAQUE,face0=0:sirorenga,face1=4000:kiiro_ue3,face2-5=0:sirorenga
+block:id=%material_block,data=8,stdrot=true,transparency=OPAQUE,face0=0:sirorenga,face1=0:kiiro_ue2,face2-5=0:sirorenga
+block:id=%material_block,data=9,stdrot=true,transparency=OPAQUE,face0-5=0:asufaruto
+block:id=%material_block,data=10,stdrot=true,transparency=OPAQUE,face0-5=0:oldplat
