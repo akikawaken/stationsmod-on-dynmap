@@ -2,7 +2,7 @@
 stationsmodのブロック(一部)をdynmap上で表示できるようにします。
 
 # 注意
-stations modの作者へこのレポジトリ/コードについて質問するのはおやめください。
+stations mod / dynmapの作者へこのレポジトリ/コードについて質問するのはおやめください。
 
 # ファイルをどこに持ってくか
 stationsmod.cfgはconfigフォルダへ  
